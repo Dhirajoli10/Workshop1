@@ -1,0 +1,106 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header, Navigation, Footer */
+header, nav, footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 15px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease, text-shadow 0.3s ease;
+}
+
+/* Hover for navigation links */
+nav a:hover {
+    color: #ffcc00;
+    text-shadow: 0 0 8px #ffcc00;
+}
+
+/* Section Styling */
+section {
+    padding: 30px;
+    text-align: center;
+}
+
+img {
+    width: 200px;
+    border-radius: 10px;
+    margin-top: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Hover for images */
+img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+}
+
+/* Project Box */
+.project {
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin: 15px auto;
+    width: 80%;
+    border-radius: 8px;
+    background: #f9f9f9;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Hover for project boxes */
+.project:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+}
+
+.project h3 {
+    margin-top: 0;
+    color: #333;
+}
+
+/* Contact Form */
+form input, form textarea {
+    width: 60%;
+    padding: 8px;
+    font-size: 16px;
+}
+
+/* Button styling */
+button {
+    padding: 10px 20px;
+    cursor: pointer;
+    background: #333;
+    color: white;
+    border: none;
+    transition: background 0.3s ease, transform 0.3s ease;
+}
+
+/* Hover for button */
+button:hover {
+    background: #555;
+    transform: scale(1.05);
+}
+
+/* Footer */
+footer {
+    margin-top: 20px;
+}
