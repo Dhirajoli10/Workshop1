@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dhiraj Oli • Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+    <!-- Header / Hero Section -->
+    <header id="hero">
+        <video autoplay loop muted id="video-background">
+            <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+
+        <nav class="navbar">
+            
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <button class="menu-toggle" id="menu-button" aria-expanded="false">☰</button>
+        </nav>
+
+        <div class="hero-content">
+            <h1>Dhiraj Oli</h1>
+            <p>Frontend Developer & UI/UX Enthusias</p>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Hello! I am <strong>Dhiraj Oli</strong>. I am passionate about web development, design, and building things that make life easier.</p>
+        <img src="https://i.ibb.co/274xM71Y/your-image.jpg" alt="Dhiraj Oli">
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <h2>My Projects</h2>
+        <div id="projects-grid">
+            <article class="project">
+                <h3>Portfolio Website</h3>
+                <p>A clean and responsive personal portfolio website built with HTML, CSS, and JavaScript. It showcases my skills, projects, and contact details.</p>
+            </article>
+            <article class="project">
+                <h3>To-Do List App</h3>
+                <p>A simple task manager built using JavaScript where users can add, edit, and delete tasks. It also stores data in local storage.</p>
+                <img src="https://raw.githubusercontent.com/codedex-io/projects/main/projects/create-a-to-do-list-app-with-html-css-js/finished-todo-list.png" alt="To-Do List">
+            </article>
+            <article class="project">
+                <h3>Weather App</h3>
+                <p>A weather forecasting app using an open API to display real-time temperature, humidity, and weather conditions of any city.</p>
+                <img src="https://mir-s3-cdn-cf.behance.net/projects/404/8bdc1e177449205.Y3JvcCwxNTM0LDEyMDAsMzQsMA.png" alt="Weather App">
+            </article>
+            <article class="project">
+                <h3>Calculator App</h3>
+                <p>A fully functional calculator designed using HTML, CSS, and JavaScript. Supports all basic math operations.</p>
+                <img src="https://www.simplilearn.com/ice9/free_resources_article_thumb/JavaScript_Calculator.PNG" alt="Calculator App">
+            </article>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form id="contact-form">
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" required><br><br>
+
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" required><br><br>
+
+            <label for="message">Message:</label><br>
+            <textarea id="message" required></textarea><br><br>
+
+            <button type="submit">Send</button>
+        </form>
+        <div id="form-message"></div>
+    </section>
+
+    <footer>
+        © 2025 — Dhiraj Oli
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
